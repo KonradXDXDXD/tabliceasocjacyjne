@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+   <?php
+   
+  // echo "<h1>Tablice asocjacyjne</h1>";
+  // $asocjacja['imie']="Kamil";
+  // $asocjacja['nazwisko']="Ślimak";
+ //  $asocjacja['wiek']=18;
+ //  echo "<br>";
+ //  print_r($asocjacja);
+ //  echo"<br>";
+ //  echo 'nazwisko: '.$asocjacja['nazwisko'];
+   
+
+ $asocjacja['Jogurt']=1.5;
+ $asocjacja['maslo']=4.3;
+ $asocjacja['mleko']=2.56;
+ $asocjacja['ser']=35.2;
+ $asocjacja['chleb']=5.4;
+ $asocjacja['szynka']=52.6;
+ $asocjacja['pomidor']=21.4;  
+ echo "<br>";
+ print_r($asocjacja);
+ echo "<br>";
+ echo 'szynka'.$asocjacja['szynka'];
+ echo "<br>";
+ echo 'pomidor'.$asocjacja['pomidor'];
+ echo "<br>";
+ echo 'ser'.$asocjacja['ser'];
+ echo "<br>";
+ echo 'maslo'.$asocjacja['maslo'];  
+ echo "<br>";
+ print_r($asocjacja);
+   ?>
+</body>
+</html>
